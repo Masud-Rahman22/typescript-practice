@@ -12,4 +12,6 @@ const numbers : number[] = [1,2,3,4,5]
 const squareNumbers : number[] = numbers.map((num: number):number=>{
     return num*num;
 })
+
+
 }
