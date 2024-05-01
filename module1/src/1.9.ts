@@ -20,7 +20,7 @@
     const name : Name= 'Masud Rahman'
 
     // type alias can be used in function too
-    type Add = (num1: number, num2: number);
+    type Add = (num1: number, num2: number)=> Number;
     const add : Add = (num1, num2) =>{
         return num1 + num2;
     }
