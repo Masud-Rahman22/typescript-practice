@@ -9,7 +9,7 @@
         contact: '01850556560',
         isMarried: 'waiting'
     }
-    const { id, name: { lastName: name }, contact: phone } = me; // we can get the lastName value by this method and we can alias the name also.
+    const { id, name: { lastName: name }, contact: phone } = me; // we can get the lastName value by this method and we can alias the name also. This is called name alias
 
     //array destructuring
     const friends = ['monica', 'rachel', 'phoebe', 'chandler', 'joey', 'ross']
