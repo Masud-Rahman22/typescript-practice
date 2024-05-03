@@ -13,9 +13,9 @@
         email: 'masudrhmn6560@gmail.com',
         address: 'narayanganj'
     })
-    const student2 = addCourseToStudent({
-        name: 'masud',
-        // email: 'masudrhmn6560@gmail.com',
-        address: 'narayanganj'
-    }) // here without email there will be error.
+    // const student2 = addCourseToStudent({
+    //     name: 'masud',
+    //     // email: 'masudrhmn6560@gmail.com',
+    //     address: 'narayanganj'
+    // }) // here without email there will be error.
 }
