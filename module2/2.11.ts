@@ -34,7 +34,7 @@
         address: 'Dhaka'
     }
 
-    aboutMe.age = 23; // can not alter readonly property
+    // aboutMe.age = 23; // can not alter readonly property
 
     /*
     properties of object are always string type and index of array is number
