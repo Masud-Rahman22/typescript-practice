@@ -1,31 +1,31 @@
 {
     // access modifiers
     // this is to understand private access modifier
-    // class BankAccount {
-    //     public readonly id: number; // by default public is added so no need to tell explicitly & readonly means can not change this property.
-    //     public name: string; // by default public is added so no need to tell explicitly
-    //     private _balance: number; // by default public is added so no need to tell explicitly & private means it iss only accessible inside the class and _balance this is just convention
+    class BankAccount1 {
+        public readonly id: number; // by default public is added so no need to tell explicitly & readonly means can not change this property.
+        public name: string; // by default public is added so no need to tell explicitly
+        private _balance: number; // by default public is added so no need to tell explicitly & private means it iss only accessible inside the class and _balance this is just convention
 
-    //     constructor(id: number, name: string, balance: number){
-    //         this.id = id;
-    //         this.name = name;
-    //         this._balance = balance;
-    //     }
+        constructor(id: number, name: string, balance: number){
+            this.id = id;
+            this.name = name;
+            this._balance = balance;
+        }
 
-    //     updateBalance(amount: number): number {
-    //         return this._balance = this._balance + amount;
-    //     }
+        updateBalance(amount: number): number {
+            return this._balance = this._balance + amount;
+        }
 
-    //     getBalance():number{
-    //         return this._balance;
-    //     }
+        getBalance():number{
+            return this._balance;
+        }
 
-    // }
+    }
 
-    // const myAccount = new BankAccount(123, 'my account', 0)
-    // myAccount.updateBalance(100000)
-    // const amount = myAccount.getBalance()
-    // console.log(amount)
+    const myAccount = new BankAccount(123, 'my account', 0)
+    myAccount.updateBalance(100000)
+    const amount = myAccount.getBalance()
+    console.log(amount)
     
     // this i sto understand protected access modifier
     class BankAccount {
