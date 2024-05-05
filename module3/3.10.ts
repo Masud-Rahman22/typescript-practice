@@ -22,6 +22,13 @@
 
     }
 
+    class MyAccount extends BankAccount {
+        constructor(id: number, name: string, balance: number){
+            super(id, name, balance);
+            this //here we can not access _balance because it is private
+        }
+    }
+
     const myAccount = new BankAccount(123, 'my account', 0)
     myAccount.updateBalance(100000)
     const amount = myAccount.getBalance()
